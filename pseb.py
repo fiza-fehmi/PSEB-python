@@ -1,5 +1,7 @@
-#simply print a string
-print("hello world")
+#defines a variable assigned value and checked type
+userName = "Fiza Fehmi"
+print(userName ,type(userName))
+
 
 """
 a list of numbers
@@ -15,3 +17,7 @@ def greet(name) :
     return("hello" ,name)
 
 print(greet("Fiza"))
+
+#defining mul variables in one line
+a ,b ,c = 5 ,10 ,15
+print(a ,b ,c)
