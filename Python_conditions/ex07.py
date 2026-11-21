@@ -8,6 +8,7 @@
 
 bill_amount = float(input("Enter the amount : "))
 if bill_amount>=5000:
+    '''Formula found via Google.'''
     discount =(10/100)*bill_amount
     print(f"original bill: {bill_amount}")
     pay = bill_amount-discount
